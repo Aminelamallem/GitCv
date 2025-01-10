@@ -1,5 +1,115 @@
-.imageInfo img  {
-    border-radius: 50%;
-    height: 200px;
+header{
+    background-image: url('images/background\ cv\ dark\ blue.jpg');  /* Remplacez par le chemin de votre image */
+    background-size: cover;                   /* Couverture complète de l'espace */
+    background-position: center;
+    border-radius: 20px;
+    height: 50vh;
+    
+}
+.photoProfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: ;
+   
 }
     
+    
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.madara img{
+   
+   ;
+    height: 12em;
+    width:14em;
+    border-radius: 40%;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    
+}
+.madara h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+.madara p{
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+    
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: start;
+    color: #ffffff;
+}
+.Contact h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+    
+
+.langue{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    align-items
+    flex-wrap: wrap;
+    
+    
+}
+.conpetence h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}       
+.langue h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}   
+.formation{
+    display: flex;
+    justify-content: space-evenly;
+}
+.formation h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}   
+.experience h2{
+    display: flex;
+    justify-content:center ;
+}
+.experience p{
+    display: flex;
+    justify-content:center ;
+}
+main{
+    background-image: url(images/background\ cv.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.madara{
+
+}
+
